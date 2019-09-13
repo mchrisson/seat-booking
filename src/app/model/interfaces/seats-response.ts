@@ -7,6 +7,6 @@ export interface SeatsResponse {
 }
 
 export interface GridItem {
-  column: number;
   row: number;
+  column: number;
 }

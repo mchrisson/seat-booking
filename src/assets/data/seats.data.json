@@ -1,6 +1,6 @@
 {
 	"gridSize": {
-		"rowSize": 20, "columnSize": 20
+		"rowSize": 10, "columnSize": 20
 	},
 	"unavailableSeats": [
 		{ "column": 1, "row": 1 },

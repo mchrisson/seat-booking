@@ -7,11 +7,13 @@ import { NbThemeModule, NbLayoutModule, NbCardModule } from '@nebular/theme';
 import { NbEvaIconsModule } from '@nebular/eva-icons';
 import { AppRoutingModule } from './app-routing.module';
 import { SeatsContainerComponent } from './components/seats-container/seats-container.component';
+import { SeatComponent } from './components/seat/seat.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    SeatsContainerComponent
+    SeatsContainerComponent,
+    SeatComponent
   ],
   imports: [
     BrowserModule,

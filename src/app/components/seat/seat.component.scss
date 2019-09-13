@@ -1,0 +1,12 @@
+.seat {
+	padding: 0.2rem;
+	img {
+		width: 100%;
+	}
+	&.selected {
+		filter: hue-rotate(96deg);
+	}
+	&.unavailable {
+		filter: hue-rotate(224deg);
+	}
+}
